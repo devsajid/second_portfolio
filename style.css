@@ -1,3 +1,46 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+head{
+    
+}
+
+section{
+    display: flex;
+    background-image:url(https://cnet.co/3n0LvNH);
+    background-position: 50%;
+    position: relative;
+    /*background-color: #8E40C3;*/
+}
+.top{
+    padding: 10px 30px;
+    margin: 40px 50px;
+    width: 50%;
+    
+}
+h1{
+    color: white;
+}
+.nav{
+    padding: 10px 30px;
+    margin: 40px 50px;
+    width: 50%;
+    }
+
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav a:hover{
+    font-weight: 900;
+    background-color: #6047EC;
+    border: #6047EC;
+    border-radius: 7px;
+    border-style: solid;
+    }
+.margin{
+    margin-right: 5px;
 }
